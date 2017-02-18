@@ -17,6 +17,7 @@ module.exports = {
     get: sql('gags/get'),
     list: sql('gags/list'),
     post: sql('gags/post'),
+    user: sql('gags/user'),
   },
   users: {
     get: sql('users/get'),
