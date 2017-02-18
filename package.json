@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "9gagify API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9gagify/api.git"
+  },
+  "author": "Antonio Villagra De La Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9gagify/api/issues"
+  },
+  "homepage": "https://github.com/9gagify/api#readme"
+}
