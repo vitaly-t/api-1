@@ -4,6 +4,7 @@
   "description": "9gagify API",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/9gagify/api/issues"
   },
-  "homepage": "https://github.com/9gagify/api#readme"
+  "homepage": "https://github.com/9gagify/api#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "node-uuid": "^1.4.7",
+    "pg-promise": "^5.5.7"
+  }
 }
